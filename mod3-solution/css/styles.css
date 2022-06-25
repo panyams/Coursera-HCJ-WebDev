@@ -44,6 +44,35 @@ body {
   #toggle-span {
     background-color: black;
   }
+
+  /* End of HEADER */
+
+  /* Container and Jumbotron */
+  #page-heading {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  #body-container {
+    height: 2000px;
+  }
+
+  #body-cell {
+    background-color: gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  #row-heading {
+    font-size: 20px;
+
+  }
+
+  #row-content {
+    font-size: 16px;
+
+  }
+  /* End of Container and Jumbotron */
   
  
 
@@ -81,8 +110,11 @@ body {
         margin-top: 30px;
         padding: 0;
     }
-    #menu-tile, #specials-tile {
-        width: 360px;
-        margin: 0 auto 15px;
+
+    #body-cell {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
+
   }
