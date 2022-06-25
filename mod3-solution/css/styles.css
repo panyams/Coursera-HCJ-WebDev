@@ -1,0 +1,88 @@
+body {
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+  }
+ /** HEADER **/
+  #header-nav {
+    background-color: rgb(134, 129, 129);
+    color: black;
+    border-radius: 0;
+    border: 3px solid black;
+  }
+
+  /* .navbar-brand {
+    padding-top: 25px;
+  } */
+
+  .navbar-brand h1 { /* brand name */
+    /* font-family: 'Lora', serif; */
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  .navbar-items {
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+  }
+
+  #toggle-button {
+    border-color: black;
+  }
+
+  #toggle-span {
+    background-color: black;
+  }
+  
+ 
+
+  /********** Large devices only **********/
+  @media (min-width: 1200px) {
+    .container .jumbotron {
+      height: 675px;
+    }
+  }
+
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+  
+    /* Home Page */
+    .container .jumbotron {
+      height: 558px;
+    }
+  }
+    /* End Home Page */
+
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Home Page */
+    .container .jumbotron {
+      height: 432px;
+    }
+    /* End Home Page */
+  }
+
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+
+    /* Home Page */
+    .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+    }
+    #menu-tile, #specials-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+  }
