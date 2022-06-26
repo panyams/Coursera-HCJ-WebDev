@@ -54,23 +54,25 @@ body {
   }
 
   #body-container {
-    height: 2000px;
+    height: 400px;
+    overflow-y: scroll;
   }
 
   #body-cell {
     background-color: gray;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding: 15px;
   }
 
-  #row-heading {
-    font-size: 20px;
-
-  }
-
-  #row-content {
+  #cell-content {
     font-size: 16px;
+    font-weight:600;
+  }
 
+  h3 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
   }
   /* End of Container and Jumbotron */
   
